@@ -1,0 +1,41 @@
+h1 {
+    color: red
+}
+
+#tecnology h3 {
+    color: green
+}
+
+#tecnology h2 {
+    color: green
+}
+
+#entertainment h3 {
+    color: blue
+}
+
+#entertainment h2 {
+    color: blue
+}
+
+header li {
+    display: inline
+}
+
+.conteiner {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 50%;
+}
