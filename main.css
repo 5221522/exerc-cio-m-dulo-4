@@ -1,30 +1,68 @@
-h1 {
-    color: red
+
+
+* {
+    box-sizing: border-box;
+    margin: 3;
+    padding: 3;
 }
 
 #tecnology h3 {
-    color: green
+    color: #000
 }
 
 #tecnology h2 {
-    color: green
+    color: #000
 }
 
-#entertainment h3 {
+#sport h3 {
     color: blue
 }
 
-#entertainment h2 {
+#sport h2 {
     color: blue
+}
+
+
+#entertaiment h3 {
+    color: blue
+}
+
+#entertaiment h2 {
+    color: blue
+}
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body > header {
+    background-color: black;
+    padding: 16px 0;
+    color: #fff;
 }
 
 header li {
-    display: inline
+    display: inline;
+    text-decoration: none;
+}
+
+header li a {
+    color: #fff;        
+    text-decoration: none;
 }
 
 .conteiner {
     width: 1366px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
 }
 
 .articles {
@@ -38,4 +76,23 @@ header li {
 
 .articles article {
     width: 50%;
+}
+
+.articles article a {
+    background-color: #000;
+    color:aliceblue;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+#economy {
+    background-color: aqua;
+}
+
+#tecnology {
+    background-color: aqua;
 }
