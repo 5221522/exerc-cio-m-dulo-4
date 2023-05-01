@@ -78,7 +78,28 @@ header li a {
     width: 50%;
 }
 
-.articles article a {
+#economy article a {
+    background-color: rgb(29, 15, 224);
+    color:aliceblue;
+    padding: 6px;
+    text-decoration: none;
+}
+
+#entertaiment article a {
+    background-color: rgb(25, 109, 17);
+    color:aliceblue;
+    padding: 6px;
+    text-decoration: none;
+}
+
+#tecnology article a {
+    background-color: rgb(63, 7, 7);
+    color:aliceblue;
+    padding: 6px;
+    text-decoration: none;
+}
+
+#sport article a {
     background-color: #000;
     color:aliceblue;
     padding: 6px;
@@ -93,6 +114,10 @@ header li a {
     background-color: aqua;
 }
 
+#entertaiment {
+    background-color: rgb(125, 168, 154);
+}
+
 #tecnology {
-    background-color: aqua;
+    background-color: rgb(125, 148, 148);
 }
